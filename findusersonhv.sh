@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-hv_host=hv27.nubes.rl.ac.uk
+hv_host=$1
 
 rm -fR /tmp/user.txt
 touch /tmp/user.txt
